@@ -28,6 +28,9 @@
 .conteudo {
     display: flex;
     flex-direction: column;
+
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
 .conteudo-principal {
