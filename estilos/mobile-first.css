@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+:root {
+    /* Paleta de cores */
+    --azul-esverdiado: #0da174;
+    --verde-limao: #9dcc1e;
+    --verde-agua: #11c18c;
+    --background: #e0e0e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding: 15px;
+    background-color: white;
+}
+
+.conteudo-principal-titulo {
+    padding: 10px 0px;
+    
+    color: var(--azul-esverdiado);
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.158);
+    text-align: center;
+}
+
+.conteudo-principal-subtitulo {
+    padding-bottom: 10px;
+
+    color: var(--verde-limao);
+    font-size: 1.4em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.088);
+    text-align: center;
+}
+
+.conteudo-principal-paragrafo {
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.686);
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-secundario-plano {
+    width: 100%;
+    padding: 15px;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    background-color: var(--azul-esverdiado);
+}
+
+.conteudo-secundario-plano-titulo {
+    color: white;
+
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250) ;
+}
+
+.conteudo-secundario-plano-subtitulo {
+    color: white;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+}
+
+.conteudo-secundario-plano-subtitulo > span {
+    color: rgba(255, 255, 255, 0.773);
+    font-size: 0.9ex;
+    text-shadow: none;
+}
+
+.conteudo-secundario-plano-paragrafo {
+    color: rgba(255, 255, 255, 0.881);
+    padding-bottom: 10px;
+}
+
+.conteudo-secundario-plano-botao {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.333);
+
+    background-color: var(--verde-limao);
+    color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.179);
+}
+
+.conteudo-secundario-descriçao {
+    width: 100%;
+    padding: 15px;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    background-color: var(--verde-agua);
+}
+
+.conteudo-secundario-descriçao-titulo {
+    color: white;
+
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44) ;
+}
+
+.conteudo-secundario-descriçao-lista {
+    list-style-type: none;
+}
+
+.conteudo-secundario-descriçao-lista-item {
+    padding-bottom: 7px;
+    color: rgba(255, 255, 255, 0.884);
+}
