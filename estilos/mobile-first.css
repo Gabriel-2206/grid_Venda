@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Versão para Mobile */
+
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
 :root {
@@ -141,6 +143,7 @@
 }
 
 .conteudo-secundario-descriçao-lista {
+    padding-bottom: 10px;
     list-style-type: none;
 }
 
