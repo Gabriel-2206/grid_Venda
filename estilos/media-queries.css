@@ -73,6 +73,15 @@
         padding: 15px;
     }
 
+    .conteudo-secundario-plano-botao:hover {
+        width: 82%;
+        padding: 17px;
+        transition: width .7s, padding .7s;
+        transition-timing-function: ease;
+
+        cursor: pointer;
+    }
+
     .conteudo-secundario-descriçao {
         height: 100%;
         width: 50%;

@@ -23,7 +23,7 @@
                 <h1 class="conteudo-secundario-plano-titulo">Assinatura mensal</h1>
                 <h2 class="conteudo-secundario-plano-subtitulo">R$29 <span>por mês</span></h2>
                 <p class="conteudo-secundario-plano-paragrafo">Acesso total por menos de R$ 1 por dia</p>
-                <button class="conteudo-secundario-plano-botao">Inscreva-se</button>
+                <button class="conteudo-secundario-plano-botao" id="botao-compra" onclick="adicionar()">Adicione</button>
             </div>
             <div class="conteudo-secundario-descriçao">
                 <h1 class="conteudo-secundario-descriçao-titulo">Nossos serviços</h1>
@@ -39,5 +39,11 @@
             </div>
         </section>
     </main>
+
+    <script>
+        function adicionar() {
+            window.document.getElementById('botao-compra').innerHTML = 'Adicionado !'
+        }
+    </script>
 </body>
 </html>
